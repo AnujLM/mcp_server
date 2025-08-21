@@ -31,7 +31,7 @@ export class LikeMindsClient {
 
   async queryAiAgent(query, context) {
     console.info('[client] → POST /api/ai-query');
-    return this.#post('/ai-agent/query', { query, context });
+    return this.#post('/api/ai-query', { query, context });
   }
 
   async generateFlutterCode(user_query) {
