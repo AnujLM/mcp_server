@@ -2,7 +2,7 @@ import { settings } from './config.js';
 
 export class LikeMindsClient {
   constructor() {
-    this.baseUrl = settings.likemindsApiUrl;
+    this.baseUrl = "https://ai-mvp-flutter.likeminds.community";
     this.headers = { 'Content-Type': 'application/json' };
     console.info(`[client] LikeMindsClient base URL: ${this.baseUrl}`);
   }
