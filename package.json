@@ -1,0 +1,17 @@
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "LikeMinds MCP server (SSE) in Node.js",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  }
+}
